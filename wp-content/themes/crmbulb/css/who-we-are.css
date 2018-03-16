@@ -1,0 +1,256 @@
+
+.innerbanner {
+	background: url('../assets/images/banner4.png') no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #efefef;
+	padding: 47px 0;
+}
+.innerbanner h1 {
+	font-size: 48px;
+	margin: 0 0 7px;
+}
+.sect2-wedevelop {
+	padding: 60px 0;
+}
+.sect2-wedevelop h2 {
+	font-size: 35px;
+	line-height: 1.4;
+	text-transform: none;
+	margin: 0 0 37px;
+}
+.sect2-wedevelop p {
+	margin: 0;
+}
+.sect2-wedevelop .two-col {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 61px 0 0;
+}
+.sect2-wedevelop .two-col .col {
+	width: 48.6%;
+}
+.sect2-wedevelop .two-col .col:first-child {
+	padding: 5px 0 0;
+}
+.sect2-wedevelop .two-col .col p {
+	margin: 0 0 35px;
+}
+.wwa-story {
+	text-align: center;
+	color: #fff;
+	background: url('../assets/images/banner5.jpg') no-repeat;
+	background-size: 100% 100%;
+	min-height: 680px;
+	padding: 20px 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	font-size: 23px;
+	line-height: 1.26;
+	letter-spacing: 0.3px;
+}
+.wwa-story .youtlink {
+	height: 118px;
+	width: 118px;
+	line-height: 118px;
+	background: #ffffff;
+	border-radius: 100%;
+	color: #3b8f2b;
+	display: block;
+	margin: 0 auto 44px;
+	font-size: 90px;
+	padding: 0 0 0 10px;
+}
+.wwa-story h2 {
+	font-size: 56px;
+	margin: 0 0 31px;
+}
+.wwa-story .text-hol {
+	padding: 45px 0 0;
+}
+.wwa-ourteam {
+	text-align: center;
+	padding: 66px 0;
+}
+.wwa-ourteam .title-hol {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.wwa-ourteam .title-hol h2 {
+	margin: 0 0 14px;
+}
+.wwa-ourteam .teamholder {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 41px 0 0;
+	font-size: 18px;
+	line-height: 1.33;
+}
+.wwa-ourteam .teamholder h3 {
+	color: #44a433;
+	font-size: 26px;
+	line-height: 1.2;
+	margin: 0 0 2px;
+}
+.wwa-ourteam .teamholder .text {
+	padding: 0 15px;
+}
+.wwa-ourteam .teamholder .tarticle {
+	width: 31.3%;
+	margin: 0 0 32px;
+}
+.wwa-ourteam .teamholder .tarticle .img-holder {
+	width: 243px;
+	margin: 0 auto 22px;
+	padding: 10px;
+	border-radius: 100%;
+	height: 243px;
+	overflow: hidden;
+	border: 3px solid #c7e4c1;
+}
+.wwa-ourteam .teamholder .tarticle img {
+	border-radius: 100%;
+}
+.wwa-ourteam .teamholder .designation {
+	margin: 0 0 13px;
+	display: block;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 1199px) {
+.wwa-story .text-hol {
+	padding: 20px 0 0;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.sect2-wedevelop h2 {
+	font-size: 28px;
+	margin: 0 0 20px;
+}
+.sect2-wedevelop h2 br {
+	display: none;
+}
+.sect2-wedevelop {
+	padding: 50px 0;
+}
+.wwa-ourteam .teamholder {
+	justify-content: space-around;
+}
+.wwa-ourteam .teamholder .tarticle {
+	width: 45%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.innerbanner h1 {
+	font-size: 40px;
+}
+.innerbanner {
+	text-align: center;
+	padding: 51px 0;
+}
+.sect2-wedevelop {
+	text-align: center;
+	padding: 42px 0;
+	margin: 0 0 9px;
+}
+.sect2-wedevelop .container {
+	padding: 0 45px;
+}
+.sect2-wedevelop h2 {
+	margin: 0 0 28px;
+}
+.sect2-wedevelop .two-col {
+	flex-wrap: wrap;
+	padding: 30px 0 0;
+}
+.sect2-wedevelop .two-col .col {
+	width: 100%;
+}
+.sect2-wedevelop .two-col .col p {
+	margin: 0 0 25px;
+}
+.wwa-story .youtlink {
+	height: 94px;
+	width: 94px;
+	line-height: 94px;
+	margin: 0 auto 34px;
+	font-size: 70px;
+}
+.wwa-story .text-hol {
+	padding: 58px 0 0;
+}
+.wwa-story h2 {
+	font-size: 48px;
+}
+.wwa-ourteam {
+	padding: 49px 0;
+}
+.wwa-ourteam .teamholder .tarticle {
+	width: 65%;
+	margin: 0 0 24px;
+}
+.wwa-ourteam .teamholder {
+	padding: 11px 0 0;
+}
+.sect2-wedevelop .two-col .col img {
+	display: block;
+	width: 100%;
+}
+.wwa-story {
+	background-size: cover;
+	background-position: 65% 100%;
+	font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 639px) {
+.sect2-wedevelop .container {
+	padding: 0 30px;
+}
+.sect2-wedevelop h2 br {
+	display: none;
+}
+}
+
+@media only screen and (max-width: 479px) {
+.wwa-ourteam .teamholder .tarticle {
+	width: 100%;
+	margin: 0 0 20px;
+}
+.sect2-wedevelop h2 {
+	font-size: 21px;
+}
+.sect2-wedevelop .container {
+	padding: 0 15px;
+}
+.wwa-story {
+	min-height: 570px;
+}
+.wwa-story .text-hol {
+	padding: 20px 0 0;
+}
+.wwa-story .youtlink {
+	margin: 0 auto 20px;
+}
+.wwa-ourteam {
+	padding: 40px 0;
+}
+.wwa-ourteam .teamholder .tarticle {
+	margin: 0 0 10px;
+}
+}

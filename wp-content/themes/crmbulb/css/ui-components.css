@@ -1,0 +1,148 @@
+.bui-btn:hover {
+  color: red;
+}
+.pagination-hol {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 835px;
+  margin: 0 auto 62px;
+  padding: 15px 0;
+}
+.pagination-hol .btn {
+  min-width: 149px;
+  font-size: 24px;
+  color: #a6a6a8;
+  border-color: #a6a6a8;
+  font-weight: 400;
+  padding: 11px 5px;
+}
+.pagination-hol .btn:hover {
+  color: #fff;
+  border-color: #44a433;
+}
+.pagination-hol .btn i {
+  font-size: 26px;
+  margin: 0 10px 0 0;
+}
+.pagination-hol .btn.next i {
+  margin: 0 0 0 10px;
+}
+.pagination-hol ul {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+}
+.pagination-hol ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.pagination-hol ul li a {
+  padding: 0 17px;
+  display: block;
+  color: #39393e;
+  border-bottom: 3px solid transparent;
+}
+.pagination-hol ul li.active a,
+.pagination-hol ul li a:hover {
+  border-color: #44a433;
+  color: #44a433;
+}
+@media only screen and (max-width: 767px) {
+  .pagination-hol {
+    max-width: 544px;
+    margin: 0 auto 18px;
+  }
+  .pagination-hol .btn {
+    height: 55px;
+    width: 55px;
+    min-width: auto;
+    padding: 0;
+  }
+  .pagination-hol .btn i {
+    margin: 0;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .pagination-hol .btn span {
+    display: none;
+  }
+}
+
+
+/* btn
+*/
+.btn {
+	font: 700 24px/1.2 'Lato', Arial, sans-serif;
+	color: #44a433;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px 13px;
+	margin: 0 0 13px;
+	background: none;
+	text-align: center;
+	min-width: 311px;
+	position: relative;
+	border-radius: 40px;
+	text-transform: capitalize;
+	border: 2px solid #44a433;
+}
+.btn:hover {
+	background: #44a433;
+	color: #fff;
+}
+.btn-readmore {
+	font-size: 18px;
+	margin: 13px 0 16px;
+	min-width: 170px;
+	padding: 15px 10px;
+}
+
+.btn-green{
+  background: #44a433;
+  color: #fff;
+}
+.btn-green:hover{
+  background: none;
+  color: #44a433;
+}
+
+
+/* .banner .btn {
+	margin: 0 2px;	
+	min-width: 380px;
+}
+.banner .btn {
+	min-width: 360px;
+} */
+
+
+/* navigation btn
+*/
+
+@media only screen and (max-width:767px) {
+  #nav .login-sign li:first-child a:hover, #nav .login-sign li a {
+		display: inline-block;
+		vertical-align: top;
+		min-width:  161px;
+	}
+}
+
+#nav .login-sign li:first-child a:hover, #nav .login-sign li a {
+	min-width: 119px;
+	padding: 11px 7px;
+	background: #44a433;
+	border: 2px solid #44a433;
+	text-align: center;
+	color: #fff;
+	border-radius: 30px;
+}
+#nav .login-sign li:first-child a:hover, #nav .login-sign li a, #nav .login-sign li:first-child a, #nav .login-sign li a:hover {
+	display: inline-block;
+	min-width: 161px;
+}
