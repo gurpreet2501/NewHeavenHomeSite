@@ -1,42 +1,43 @@
-<?php
+ <?php
 /**
  * The base configuration for WordPress
  *
  * The wp-config.php creation script uses this file during the
  * installation. You don't have to use the web site, you can
  * copy this file to "wp-config.php" and fill in the values.
- *
+ * 
  * This file contains the following configurations:
  *
  * * MySQL settings
  * * Secret keys
- * * Database table prefix
- * * ABSPATH
- *
- * @link https://codex.wordpress.org/Editing_wp-config.php
- *
+ * * Database table prefix  
+ * * ABSPATH  
+ * s
+ * @link https://codex.wordpres.org/Editing_wp-config.php 
+ * 
  * @package WordPress
- */
+ */ 
 
-define('BULB_SHOP_MENU_URL', 'https://shop.bulbwellness.co/');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
-
+define('DB_NAME', 'theHH');
+ 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+define('BULB_SHOP_MENU_URL', 'http://theheavenhomes.com');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -47,14 +48,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         ')%O^()nj[Md!j<s{ihQLx)`.V;O=oImf7Fj/K,Ek#]P[%@/*D@{M#LLjjx[U40<s');
+define('SECURE_AUTH_KEY',  'vROz3*`&r1J*oGE|hDX4p&6]JALl[6e4C{$`CKS-&%9In%sG}k9/c]e8O7{Pg<h2');
+define('LOGGED_IN_KEY',    'vL^5uFw|z+7]?3{Zf^wSgx?|K?`@g`x__^b3Eq6EgJApN}ljys1@M`imRjCmhlL#');
+define('NONCE_KEY',        '|J$HU-]TZ`PhIYS&TL?[# x&K*`a~z[kN}|r!Br.M-i#w-LYteynAur&#pE| M!E');
+define('AUTH_SALT',        '#~IrC(FX^00Y0`[YBgr:z&TzE},X=t|Xu2X}L @d]<_ELz+K>D@83mSQDs:7pMhx');
+define('SECURE_AUTH_SALT', '?^rK{S)#[LM=4@DiCXN[Em5jgN+T,M;9|eqa[?hWRM0kg_lekHf/m~61BoJ**,i1');
+define('LOGGED_IN_SALT',   '=*1f?^Cg+I<g)dPC:jk9b|c%n.XyLn=DQ/{Xt+RYx8aE,pLK g2puu$o|wLX&qHb');
+define('NONCE_SALT',       '.(7]g:gJ3R>wC>9oSf8d0^rVfc04NNt/-R2M`,)2?iJ*obA(+4N8H@[_ICn_@i4e');
 
 /**#@-*/
 
@@ -64,7 +65,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'wdf4wp_';
 
 /**
  * For developers: WordPress debugging mode.
